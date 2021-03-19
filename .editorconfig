@@ -1,9 +1,9 @@
 root = true
 
 [*]
-indent_style = space
-indent_style = 4
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
+indent_style = space  # インデントがタブかスペースか tab / space
+indent_size = 4       # インデントのサイズ
+end_of_line = lf      # 改行コード cr / lf / crlf
+charset = utf-8       # 改行コード
+trim_trailing_whitespace = true  # 行末尾の空白を削除する
+insert_final_newline = true      # ファイル末尾に空行を挿入する
